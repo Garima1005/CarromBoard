@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrom Board</title>
+    <style>
+        #main{
+            height: 500px;
+            width: 500px;
+            border: 10px solid;
+            background-color: #804000;
+        }
+        .box1{
+            height: 50px;
+            width: 500px;
+        }
+        .cell{
+            height: 50px;
+            width: 50px;
+            float: left;    
+            background-color: gray;
+            border-radius: 50%;
+        }
+        .blank1{
+            height: 50px;
+            width:400px;
+            float: left;
+        }
+        .blank2{
+            height: 50px;
+            width: 90px;
+            float: left;
+        }
+        .cil1{
+            height: 20px;
+            width: 320px;
+            float: left;
+            margin-top: 30px;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            border-radius: 5%;
+        }
+        .cil2{
+            height: 20px;
+            width: 320px;
+            float: left;
+            margin-bottom: 28px;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            border-radius: 5%;
+        }
+        #cil3{
+            width: 20px;
+            height: 270px;
+            float: right;
+            margin-right:50px;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            border-radius: 5%;
+        }
+        #box2{
+            height: 300px;
+            width: 500px;
+            //background-color: pink;
+        }
+        .dot{
+            height: 20px;
+            width: 20px;
+            background-color: red;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="box1">
+            <div class="cell"></div>
+            <div class="blank1"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="box1">
+            <div class="blank2"></div>
+            <div class="cil1">
+                <div class="dot" style="float: left;"></div>
+                <div class="dot" style="float: right;"></div>
+            </div>
+        </div>
+        <div id="box2">
+          <div id="cil3">
+            <div class="dot"></div>
+            <div style="height: 230px;"></div>
+                <div class="dot"></div>
+          </div>
+          <div id="cil3" style="float: left; margin-left: 50px;">
+            <div class="dot"></div>
+            <div style="height: 230px;"></div>
+                <div class="dot"></div>
+          </div>
+        </div>
+        <div class="box1">
+            <div class="blank2"></div>
+            <div class="cil2">
+                <div class="dot" style="float: left;"></div>
+                <div class="dot" style="float: right;"></div>
+            </div>
+        </div>
+        <div class="box1">
+            <div class="cell"></div>
+            <div class="blank1"></div>
+            <div class="cell"></div>
+        </div>
+    </div>
+</body>
+</html>
